@@ -1,10 +1,9 @@
 /* Form-section-start */
 .login-form-logo {
     text-align: center;
-    margin: 10px 0;
 }
 .login-form-logo img{
-    height: 120px;
+    height: 80px;
 }
 .login-form{}
 .login-form{}
@@ -36,22 +35,245 @@
     border-radius: 5px;
 
 }
-.login-form-bottom-logo {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 10px;
+
+/* .login-form button::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width:0%;
+	background-color: green;
+	color: green !important;
+	font-weight: 700;
+	border-radius: 7px;
+	z-index: -1;
+	opacity: 0;
+	visibility: hidden;
+	transition: .4s;
+
 }
-.login-form-bottom-logo img{}
-.login-form-content p {
-    text-align: center;
-    color: black;
-    font-size: 20px;
-    font-weight: 600;
+.login-form button:hover::before{
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+	color: black !important;
+} */
+.payment-logo {
+    border-radius: 5px;
 }
+.payment-logo ul{}
+.payment-logo ul li{
+    display: inline-block;
+}
+.payment-logo ul li a{
+    display: block;
+}
+.payment-logo ul li a img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ddd;
+    margin: 5px 5px;
+    border-radius: 5px;
+}
+.payment-title{
+    text-align: center;
+}
+
 .login-form-footer {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .login-form-footer h5{}
 .login-form-footer p{}
+.footer-section{
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
 /* Form-section-end */
+/* Sign up Page Start */
+.form-group label {
+    font-size: 17px;
+    color: black;
+    font-weight: 400;
+    margin: 0;
+}
+.psersonal-information {
+    display: flex;
+    justify-content: space-between;
+}
+.psersonal-information a {
+    color: white;
+    background: linear-gradient(rgb(-83,-20, 0),green);
+    display: inline-block;
+    padding: 5px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.user-heading {
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.form-group input[type="tel"] {
+    border: 0;
+    background: #f3ecec;
+    outline: #f3ecec;
+    border-radius: 5px;
+}
+.form-group input[type="email"] {
+    border: 0;
+    background: #f3ecec;
+    outline: #f3ecec;
+    border-radius: 5px;
+}
+.form-group input[type="number"] {
+    border: 0;
+    background: #f3ecec;
+    outline: #f3ecec;
+    border-radius: 5px;
+}
+.form-group input[type="date"] {
+    border: 0;
+    background: #f3ecec;
+    outline: #f3ecec;
+    border-radius: 5px;
+}
+.card-header{
+    padding: 2px 20px;
+    margin-bottom: 0;
+}
+/* Sign up Page ENd */
+
+/* Resposnsive Section start */
+@media screen and (min-width: 268px){
+    .payment-logo ul li a img {
+        width: 105px;
+        height: 49px;
+        border: 1px solid #ddd;
+        margin: 5px 5px;
+        border-radius: 5px;
+    }
+    .payment-logo ul {
+        margin-left: -2px;
+    }
+}
+@media screen and (min-width: 300px) {
+    .payment-logo ul li a img {
+        width: 82px;
+        height: 65px;
+        border: 1px solid #ddd;
+        margin: 3px 3px;
+        border-radius: 5px;
+    }
+    .payment-logo ul {
+        margin-left: -41px;
+    }
+}
+@media screen and (min-width: 350px) {
+    .payment-logo ul li a img {
+        width: 96px;
+        height: 65px;
+        border: 1px solid #ddd;
+        margin: 3px 3px;
+        border-radius: 5px;
+    }
+    .payment-logo ul {
+        margin-left: -37px;
+    }
+}
+@media screen and (min-width: 400px) {
+    .payment-logo ul li a img {
+        width: 112px;
+        height: 65px;
+        border: 1px solid #ddd;
+        margin: 3px 3px;
+        border-radius: 5px;
+    }
+}
+@media screen and (min-width: 444px) {
+    .payment-logo ul li a img {
+        width: 194px;
+        height: 69px;
+        border: 1px solid #ddd;
+        margin: 3px 3px;
+        border-radius: 5px;
+    }
+    .payment-logo ul {
+        margin-left: -2px;
+    }
+}
+@media screen and (min-width: 460px){
+    .payment-logo ul li a img {
+        width: 95px;
+        height: 57px;
+        margin: 3px 3px;
+    }
+    .payment-logo ul {
+        margin-left: -36px;
+    }
+
+}
+@media screen and (min-width: 576px){
+    .payment-logo ul li a img {
+        width: 91px;
+        height: 70px;
+        margin: 3px 3px;
+    }
+    .payment-logo ul {
+        margin-left: -38px;
+    }
+
+}
+@media screen and (min-width: 768px){
+    .payment-logo ul li a img {
+        width: 100px;
+        height: 70px;
+        margin: 3px 3px;
+    }
+
+}
+@media screen and (min-width:770px) {
+    .payment-logo ul li a img {
+        width: 60px;
+        height: 70px;
+        margin: 3px 3px;
+    }
+
+}
+@media screen and (min-width:991px) {
+    .payment-logo ul {
+        width: 405px;
+        margin: auto;
+    }
+
+}
+@media screen and (min-width:992px){
+    .payment-logo ul {
+        width: 500px;
+        margin-left: -35px;
+    }
+    .payment-logo ul li a img {
+        width: 102px;
+        height: 70px;
+        margin: 3px 3px;
+    } 
+}
+@media screen and (min-width:1200px){
+    
+}
+@media screen and (min-width:1200px){
+    .payment-logo ul {
+        width: 600px;
+        margin-left: -41px;
+    }
+    .payment-logo ul li a img {
+        width: 125px;
+        height: 79px;
+        margin: 3px 3px;
+    }
+}
+/* Resposnsive Section ENd */
